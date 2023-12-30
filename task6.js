@@ -15,9 +15,14 @@ for(let i=0;i<eFruit.length;i++)
     eFruit[i].style.backgroundColor='lightgrey';
     eFruit[i].style.padding='5px';
      eFruit[i].style.margin='5px';
-    eFruit[i].style.backgroundColor='lightgrey';
     eFruit[i].style.borderRadius='5px';
    eFruit[i].style.listStyleType='none'; 
+  }
+const oddFruit=document.querySelectorAll('.fruit:nth-child(odd)');
+for(let i=0;i<oddFruit.length;i++)
+  {
+    oddFruit[i].style.backgroundColor='lightgrey';
+    
   }
 const evenFruit=document.querySelectorAll('.fruit:nth-child(even)');
 for(let i=0;i<evenFruit.length;i++)
